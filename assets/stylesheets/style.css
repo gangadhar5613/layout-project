@@ -1,0 +1,403 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*=====================================
+
+  Custom Styles
+=====================================*/
+
+/* Header Part */
+*::before,*::after{
+    content: "";
+    display: table;
+
+}
+*:after{
+    clear: both;
+}
+
+body{
+    font-family: sans-serif;
+    max-width: 100%;
+    height: 500vh;
+    line-height: 1.5em;
+    box-sizing: border-box;
+}
+.main-header{
+background-image:url('/assets/media/img10.jpg');
+min-height: 600px;
+max-width: 100%;
+
+
+background-repeat:no-repeat;
+background-size:cover;
+max-width: 100%;
+}
+.nav-bar{
+    font: size 25px;
+    max-width: 100%;
+}
+.nav-bar li{
+    display: inline-block;
+    padding: 20px;
+    margin-top: 2%;
+    
+}
+.nav-bar ul{
+    position: relative;
+    left:350px;
+    max-width: 100%;
+}
+.nav-bar a{
+    text-decoration: none;
+    color:lightgray;
+}
+.nav-bar a:hover{
+    color: white;
+}
+/*.highlights{
+
+}*/
+
+.highlights{
+    text-align: center;
+    position: relative;
+    top:150px;
+}
+.highlights h1{
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+    background-color: turquoise;
+    display: inline-block;
+    
+
+}
+.highlights a{
+    text-decoration: none;
+    color: white;
+}
+.highlights h2{
+    font-size: 30px;
+    padding: 25px;
+    color: white;
+    font-weight: 500;
+}
+.highlights p{
+    color: white;
+    font-size: 20px;
+}
+
+
+/*-- Intro Part----*/
+
+
+
+
+.intro-1 .para {
+    font-size: 30px;
+    text-align: center;
+}
+.para{
+    line-height: 1.5em;
+}
+.strong{
+    font-weight: 900;
+}
+.intro-1{
+    margin: 5%;
+}
+
+.col-1{
+    width: 60%;
+    float: left;
+    text-align: justify;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    color: gray;
+}
+.col-2{
+ width: 40%;
+ float: right;
+ position: relative;
+ top: 30px;
+ left: 100px;
+ 
+}
+.col-2 a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid lightgray;
+    display: inline-block;
+    padding: 10px;
+}
+.col-2 a:hover{
+    background-color: lightgray;
+}
+
+
+/*======================
+ Intro-2 Part
+
+==========================*/
+
+.intro-2 img{
+    width: 250px;
+    border: 5px solid lightgray;
+    
+}
+.intro-2{
+    margin-top: 5%;
+}
+.col-3{
+    width: 20%;
+    float: left;
+    margin:5%;
+}
+.col-3 h3{
+    font-size: 25px;
+    font-weight: 900;
+    padding: 10px;
+}
+.col-3 p{
+    padding: 10px;
+    color: gray;
+}
+.col-3 li{
+    padding: 10px;
+    color: gray;
+}
+
+
+.col-4{
+    width: 70%;
+    float: left;
+   margin-top: 2%
+    
+    
+}
+ .col{
+width: 20%;
+padding: 50px;
+ float: left;
+
+}
+.col h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+.col p{
+    color: gray;
+    padding: 10px;
+}
+.button{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    border: 1px solid lightgray;
+    padding: 5px 10px 5px 10px;
+}
+
+.line-br{
+    border-radius:2px solid gray;
+    padding: 3px;
+    
+    color: gray;
+    background-color:lightgray;
+    margin: 4%;
+    
+}
+
+/*==========================
+Intro-3  Part
+
+===================*/
+
+ .intro-3{
+    margin: 2%;
+}
+    
+
+.intro-3 img{
+    width: 600px;
+    height: 250px;
+}
+.box{
+    width: 45%;
+    float: left;
+    padding:30px;
+}
+.box h4{
+    font-size: 25px;
+    padding: 10px 10px 10px 0;
+}
+.box blockquote{
+    color: rgb(145, 142, 142);
+    padding: 10px 10px 10px 0;
+    font-style: italic;
+}
+.box p{
+    padding: 20px 20px 20px 0;
+    color: rgb(138, 136, 136);
+    
+}
+
+/*=================================
+ Intro Part
+
+===========================*/
+
+.intro-4{
+    margin: 3%;
+}
+.intro-4 img{
+    width: 280px;
+    border: 5px solid lightgray;
+    
+}
+.row-1{
+    margin: 2%;
+}
+.row-1 h4{
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.row-1 blockquote{
+    color:rgb(146, 143, 143);
+    font-style: italic;
+    padding-bottom: 20px;
+
+}
+.row-1 p{
+    color: gray;
+}
+
+.column{
+    width: 20%;
+    float: left;
+    padding: 30px;
+}
+.column p{
+    padding-top: 20px;
+
+}
+
+
+/*=================================
+Footer Part
+
+==================================*/
+.footer{
+    height: 600px;
+    background-color: #333C40;
+    color: white;
+}
+
+.fcol{
+width: 20%;
+float: left;
+padding: 20px;
+position: relative;
+top: 60px;
+left: 30px;
+}
+.col-3-3{
+    width: 40%;
+    float: left;
+    padding: 20px;
+    position: relative;
+    top: 70px;
+    left:20px;
+}
+.fcol h4{
+font-size: 25px;
+padding: 20px 20px 20px 0;
+font-weight: 500;
+}
+.fcol li{
+    padding: 20px 20px 20px 0;
+}
+.fcol a{
+    text-decoration: none;
+    color: white;
+}
+.fcol a:hover{
+    color: sienna;
+}
+footer small{
+
+    display: inline-block;
+    position: relative;
+    top:150px;
+    left: 560px;
+    color:gray
+    
+}
+.row-2 h4{
+    padding: 20px;
+}
+.row-2 li{
+    display: inline-block;
+    padding: 20px;
+}
+
+
+
+
